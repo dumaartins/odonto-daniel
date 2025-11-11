@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. Daniel Oliveira - Dentista</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <h1>Dr. Daniel Oliveira</h1>
+  <button id="menu-toggle">☰</button>
+  <nav id="menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sobre">O que somos</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#localizacao">Localização</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <div id="saudacao"></div>
+
+  <section id="home">
+    <h2>Bem-vindo ao consultório do Dr. Daniel Oliveira</h2>
+    <p>Especialista em implantes dentários e aparelhos ortodônticos.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>O que somos</h2>
+    <p>Oferecemos atendimento odontológico especializado com foco em estética, funcionalidade e bem-estar. Nosso
+      compromisso é com o seu sorriso!</p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="./assets/consultorio-daniel.png" alt="Consultório">
+      <img src="./assets/implante-daniel.png" alt="Implante">
+      <img src="./assets/image.png" alt="Aparelho ortodôntico">
+    </div>
+  </section>
+
+  <section id="agendamento">
+    <h2>Agende sua consulta</h2>
+    <p>Facilitamos seu atendimento! Clique abaixo para agendar via WhatsApp:</p>
+    <a class="botao-agendar"
+      href="https://wa.me/5511943474562?text=Olá%20Dr.%20Daniel,%20gostaria%20de%20agendar%20uma%20consulta."
+      target="_blank">Agendar pelo WhatsApp</a>
+  </section>
+
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <div class="galeria">
+      <img src="./assets/comentario1.png" alt="comentario1" width="500px">
+      <img src="./assets/comentario2.png" alt="comentario2" width="500px">
+      <img src="./assets/comentario 3.png" alt="comentario3" width="500px">
+    </div>
+  </section>
+
+  <section id="formulario">
+    <h2>Envie uma mensagem</h2>
+    <form>
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/5511943474562" target="_blank">11 94347-4562</a></p>
+    <p>📄 CROSP: 107.692</p>
+  </section>
+
+  <section id="localizacao">
+    <h2>Localização</h2>
+    <p>📍 Rua Enrico Delacqua, 199 - Centro, São Roque - SP</p>
+    <iframe src="https://www.google.com/maps?q=Rua+Enrico+Delacqua,+199,+São+Roque,+SP&output=embed" width="100%"
+      height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+
+  <section id="redes">
+    <h2>Nos acompanhe</h2>
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/odontologiadr.danieloliveira/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100085583330580&locale=pt_BR" target="_blank">Facebook</a>
+      <a href="https://www.tiktok.com/@drdanieloliveiraodonto?_r=1&_t=ZS-91IamElijhP" target="_blank">TikTok</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dr. Daniel Oliveira - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
